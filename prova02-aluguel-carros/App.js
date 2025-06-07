@@ -2,14 +2,14 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import StackNavigator from './src/navigation/StackNavigator';
+import StackNavigator from './componentes/screens/AppNavigator';
 import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   return (
     <NavigationContainer>
       <StackNavigator />
-      <StatusBar style="auto" />
+      <StatusBar style="auto"/>
     </NavigationContainer>
   );
 }
